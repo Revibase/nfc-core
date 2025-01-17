@@ -1,0 +1,19 @@
+{
+  "compilerOptions": {
+    "target": "ESNext", // Output modern JavaScript (ES2020+)
+    "module": "ESNext", // Use ES module syntax
+    "declaration": true, // Generate .d.ts files for TypeScript consumers
+    "declarationMap": true, // Include source maps for .d.ts files
+    "outDir": "./dist", // Output directory
+    "rootDir": "./src", // Input directory for source files
+    "strict": true, // Enable strict type checking
+    "esModuleInterop": true, // Ensure compatibility with CommonJS imports
+    "skipLibCheck": true, // Skip type-checking of third-party libraries
+    "moduleResolution": "node", // Resolve modules like Node.js
+    "sourceMap": true, // Emit source maps for debugging
+    "jsx": "react-native", // Target React Native JSX
+    "resolveJsonModule": true // Enable importing JSON files
+  },
+  "include": ["src"], // Include all files in the src directory
+  "exclude": ["node_modules", "dist"] // Exclude unnecessary files
+}

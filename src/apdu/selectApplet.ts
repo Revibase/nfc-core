@@ -1,0 +1,9 @@
+export const selectApplet = (aid: number[]) => [
+  0x00,
+  0xa4,
+  0x04,
+  0x00,
+  0x10,
+  ...aid,
+  0x00,
+];

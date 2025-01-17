@@ -1,0 +1,27 @@
+{
+  "name": "nfc-core",
+  "version": "1.0.0",
+  "scripts": {
+    "clean": "rm -rf dist",
+    "build": "npm run clean && tsc"
+  },
+  "main": "dist/index.js",
+  "module": "dist/index.js",
+  "types": "dist/index.d.ts",
+  "files": [
+    "dist"
+  ],
+  "license": "MIT",
+  "description": "",
+  "devDependencies": {
+    "@types/jsrsasign": "^10.5.15",
+    "@types/node": "^22.10.7",
+    "typescript": "^5.7.3"
+  },
+  "dependencies": {
+    "@noble/curves": "^1.8.0",
+    "@noble/hashes": "^1.7.0",
+    "bs58": "^6.0.0",
+    "jsrsasign": "^11.1.0"
+  }
+}
