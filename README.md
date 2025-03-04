@@ -11,6 +11,5 @@
 To get started, clone this repository and install the necessary dependencies:
 
 ```bash
-git clone https://github.com/Revibase/nfc-core.git
-cd nfc-core
-npm install
+npm install @revibase/nfc-core
+```
